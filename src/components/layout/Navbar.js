@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import  './navbar.css'
-import AboutUs from './AboutUs'
+
 
  function Navbar() {
-    return (
+           return (
         <div className="sticky-top" >
            
             <nav className="navbar navbar-dark "  style={{backgroundColor: '#10696f'}}>

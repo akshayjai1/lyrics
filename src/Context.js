@@ -1,27 +1,29 @@
 import React, { Component } from 'react'
 import axios from 'axios'
- import Footer from './components/Footer'
+
 
 
 
 const Context=React.createContext();
 
 const reducer = (state, action ) =>{
-  switch(action.type)
+     switch(action.type)
   {
     case 'SEARCH_TRACKS':
       return {
          ...state,
          track_list: action.payload,
-         heading: 'Search Results'  
+         heading: "Search Results"  
       };
-      // default:
-      //   return state;
+      default:
+        return state;
+        
 
   }
 };
 
-export class  Provider extends Component {
+
+export class    Provider extends Component {
   state={
     track_list:[ ],
     heading:'Top 10 Tracks',

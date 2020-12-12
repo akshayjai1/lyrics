@@ -2,6 +2,9 @@
  section {
 	 padding: 60px 0;
 }
+.read-more{
+	text-decoration: underline;
+}
  section .section-title {
 	 text-align: center;
 	 color: #007b5e;

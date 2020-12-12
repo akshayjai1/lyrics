@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-import Navbar from './Navbar'
+
 import {Link} from 'react-router-dom'
 
 export default function AboutUs() {
@@ -18,7 +18,7 @@ export default function AboutUs() {
                                 <div className="card-block block-1">
                                     <h4 className="card-title">Our Love for Travel  </h4>
                                     <p className="card-text">Sure we’re a bunch of Developers, Designers, Writers, Managers and Thinkers. </p>
-                                    <a href="" className="read-more">Read more<i className="fa fa-angle-double-right " /></a>
+                                    <span className="read-more">Read more<i className="fa fa-angle-double-right " /></span>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function AboutUs() {
                                 <div className="card-block block-2">
                                     <h4 className="card-title"> Product</h4>
                                     <p className="card-text">We’ve made it our business to understand the travel business. </p>
-                                    <a href="" className="read-more">Read more<i className="fa fa-angle-double-right " /></a>
+                                    <a href="/" className="read-more">Read more<i className="fa fa-angle-double-right " /></a>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function AboutUs() {
                                 <div className="card-block block-3">
                                     <h4 className="card-title">Party Hard, Work Harder</h4>
                                     <p className="card-text">We party like crazy, but we know no bounds when we’re working. </p>
-                                    <a href="" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
+                                    <a href="/" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default function AboutUs() {
                                 <div className="card-block block-4">
                                     <h4 className="card-title">Engaging</h4>
                                     <p className="card-text">While many travel the world for inspiration, we find ours right here.</p>
-                                    <a href="" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
+                                    <a href="/" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function AboutUs() {
                                 <div className="card-block block-5">
                                     <h4 className="card-title">How you do it</h4>
                                     <p className="card-text">We care for you and brings perfect product for you</p>
-                                    <a href="" title="Read more" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
+                                    <a href="/" title="Read more" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default function AboutUs() {
                                 <div className="card-block block-6">
                                     <h4 className="card-title">All over the world</h4>
                                     <p className="card-text">Our team is all over the world.</p>
-                                    <a href="" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
+                                    <a href="/" className="read-more">Read more<i className="fa fa-angle-double-right ml-2" /></a>
                                 </div>
                             </div>
                         </div>

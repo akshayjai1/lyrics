@@ -4,7 +4,6 @@ import Spinner from '../layout/Spinner'
 import {Link} from "react-router-dom"
 import Moment from 'react-moment'
 
-import Footer from '../../components/Footer'
 
 import './Lyrics.css'
  class Lyrics extends Component {
